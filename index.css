@@ -1,0 +1,225 @@
+body{
+    background-image: url(./shara\ desert.jpg);
+    background-repeat: repeat;
+}
+.heading
+{
+ font-size: 80px;  
+ color: black;
+ font-style: inherit;
+ position: absolute; 
+ top: 30%;
+ left:70px;
+}
+.para
+{
+    font-size: 18px;
+    font-style: italic;
+    color: whitesmoke;
+    position:absolute ;
+    top: 48%;
+    left: 70px;
+}
+.explore
+{
+  height: 10px;
+  width: 180px; 
+  border-radius: 25px;
+  color: black; 
+  background-color: whitesmoke;
+  font-size: 25px;
+  text-align: center;
+  position: absolute;
+  top: 65%;
+  left: 150px;
+  padding: 10px;
+  padding-bottom: 20px;
+  text-decoration-line: none;
+}
+.camel{
+  font-size: 50px;
+position: absolute;
+left: 150px;
+top: 100px;
+}
+.box
+{
+  height: 500px;
+  width: 45%;
+  position: absolute;
+  left: 50%;
+  top: 20%;
+}
+.block
+{
+  height: 200px;
+  width: 200px;
+  margin: 10px;
+  border-radius: 20px;
+text-align: center;
+font-style: italic;
+}
+.block1
+{
+  position: absolute;
+  left: 100px;
+  background-image: url(./pic-1.png);
+  background-size: 250px;
+  transition: height,1s,linear;
+}
+.block1:hover{
+  transform: translateY(-15px);
+}
+.block2
+{
+position: absolute;
+left: 60%;
+background-image: url(./pic-2.png);
+background-size: 250px;
+transition: height,1s,linear;
+}
+.block2:hover{
+  transform: translateY(-15px);
+}
+.block3
+{
+  position: absolute;
+  top: 50%;
+  left: 100px;
+  background-image: url(./pic-3.png);
+  background-size: 250px;
+  transition: height,1s,linear;
+}
+.block3:hover{
+  transform: translateY(-15px);
+}
+.block4
+{
+  position: absolute;
+  top: 50%;
+  left: 60%;
+  background-image: url(./pic-4.png);
+  background-size: 200px;
+  transition: height,1s,linear;
+}
+.block4:hover{
+  transform: translateY(-15px);
+}
+.home{
+  position: absolute;
+  top: 60px;
+  left: 60%;
+  color: white;
+  text-decoration-line: none;
+}
+.region{
+  position: absolute;
+  top: 60px;
+  left:70% ;
+  color: white;
+  text-decoration-line: none;
+}
+.about{
+  position: absolute;
+  top: 60px;
+  left: 80%;
+  color: white;
+}
+.bars{
+  position: absolute;
+  top: 50px;
+  left: 90%;
+  height: 30px;
+  width: 30px;
+  text-align: center;
+  border-radius: 50%;
+  padding-top: 8px;
+  font-size: 20px;
+  background-color:lightgrey;
+}
+@media screen and (max-width:786px) {
+  body{
+    background-image: url(./shara\ desert.jpg);
+    background-repeat: repeat;
+  }
+  .heading{
+    font-size: 70px;
+    position: absolute;
+    top: 30px;
+  }
+  .camel{
+    position: absolute;
+    top: 20px;
+    left: 50px;
+  }
+  .para{
+    position: absolute;
+    top:150px;
+    color: black;
+  }
+  .explore{
+    position: absolute;
+    top: 250px;
+    left: 60px;
+  }
+  .box{
+    position: absolute;
+    height:1000px ;
+    width: 90%;
+    top: 300px;
+    left: 40px;
+  }
+  .block{
+    height: 200px;
+    width: 90%;
+  }
+  .block1{
+    position: absolute;
+    left: 10px;
+    top: 20px;
+    font-size: 20px;
+    background-image: url(./pic-1.png);
+    background-position-y: 500px;
+    background-size: 615px;
+    transition: height,1s,linear;
+}
+.block1:hover{
+  transform: translateY(-15px);
+  }
+  .block2{
+    position: absolute;
+    top: 250px;
+    left: 10px;
+    font-size: 20px;
+    background-size: 615px;
+    background-position-y: 615px;
+    transition: height,1s,linear;
+  }
+  .block2:hover{
+    transform: translateY(-15px);
+  }
+  .block3{
+    position: absolute;
+    top:500px ;
+    left: 10px;
+    font-size: 20px;
+    background-size: 615px;
+    background-position-y:560px ;
+    transition: height,1s,linear;
+  }
+  .block3:hover{
+    transform: translateY(-15px);
+  }
+  .block4{
+    position: absolute;
+    top: 750px;
+    left: 10px;
+    font-size: 20px;
+    background-size: 615px;
+    background-position-y:325px ;
+    transition: height,1s,linear;
+  }
+  .block4:hover{
+    transform: translateY(-15px);
+  }
+}
